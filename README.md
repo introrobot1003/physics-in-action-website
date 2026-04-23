@@ -13,10 +13,6 @@ A Personal Website for an AP Physics C Robotics Project and Learning Portfolio
 ### Goals
 To connect AP Physics C theory with real-world hands-on projects, build a strong portfolio for college applications, and develop practical engineering skills.
 
-### What I'm Building
-- Self-directed robotics projects using Arduino / Raspberry Pi
-- Documentation of how AP Physics concepts (torque, forces, circuits, energy) are applied in actual robots
-
 ---
 
 *Last updated: May 2026*
