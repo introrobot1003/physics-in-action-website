@@ -1,18 +1,115 @@
-<!-- Wearable Assistive Hand Gripper 프로젝트 카드 -->
-<div class="project-card">
-  <div class="project-header">
-    <span class="project-tag">Main Project 2026</span>
-    <h3>Wearable Assistive Hand Gripper</h3>
-  </div>
-  <p class="project-desc">
-    Servo-driven tendon gripper applying AP Physics C concepts (torque, levers, mechanical advantage). 
-    Designed in Onshape, fabricated with school 3D printer, controlled by Arduino. 
-    Starting May 15, 2026 for Purdue FYE RD application.
-  </p>
-  <div class="project-footer">
-    <a href="https://github.com/YOUR-USERNAME/robot-project" target="_blank" class="btn">
-      View Workshop Repo →
-    </a>
-    <span class="project-status">In Development</span>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physics in Action | Purdue FYE Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+  <!-- Navbar -->
+  <nav class="bg-slate-900 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="text-2xl font-bold text-emerald-400">Physics in Action</div>
+      <div class="flex gap-8 text-sm">
+        <a href="#about" class="hover:text-emerald-400 transition">About</a>
+        <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+        <a href="https://github.com/YOUR-USERNAME/robot-project" target="_blank" class="hover:text-emerald-400 transition">Workshop</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+        Turning AP Physics C<br>into a Real Robot
+      </h1>
+      <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+        Wearable Assistive Hand Gripper — A servo-driven, tendon-based robotic device<br>
+        Built for Purdue University FYE Regular Decision application
+      </p>
+      <a href="https://github.com/YOUR-USERNAME/robot-project" target="_blank"
+         class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 px-8 py-4 rounded-xl text-lg font-medium transition">
+        <i class="fa-brands fa-github"></i>
+        View Workshop Repository
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8">About Me</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <div>
+        <p class="text-lg leading-relaxed text-slate-300">
+          GPA ~3.6. 11th grade: AP Calculus AB (C), AP Physics 1 (B), AP Physics C: Mechanics (B), AP Physics C: E/M (ongoing).<br><br>
+          My transcript is not perfect, but I am actively turning AP Physics C concepts into a real engineering project. 
+          This gripper is my proof that I can apply theoretical physics to solve practical problems — exactly what Purdue FYE looks for.
+        </p>
+      </div>
+      <div class="text-slate-400">
+        <ul class="space-y-4">
+          <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Onshape CAD Design</li>
+          <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> School 3D Printer Fabrication</li>
+          <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Arduino + Servo Control</li>
+          <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Purdue FYE RD 1st Choice</li>
+          <li class="flex items-center gap-3"><i class="fa-solid fa-check text-emerald-400"></i> Long-term goal: Mechanical Engineering → Robotics (MS/PhD)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-slate-900 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10">Featured Project</h2>
+      
+      <div class="bg-slate-800 border border-slate-700 rounded-3xl p-8 md:p-12">
+        <div class="flex flex-col md:flex-row gap-10">
+          <div class="flex-1">
+            <span class="px-4 py-1 bg-emerald-900 text-emerald-300 text-sm rounded-full">2026 Main Project</span>
+            <h3 class="text-4xl font-semibold mt-6 mb-4">Wearable Assistive Hand Gripper</h3>
+            <p class="text-slate-400 text-lg">
+              A servo-driven, tendon-based wearable robotic gripper that applies AP Physics C concepts 
+              (torque, levers, mechanical advantage) in real design and fabrication.
+            </p>
+            <div class="mt-8 flex gap-4">
+              <a href="https://github.com/YOUR-USERNAME/robot-project" target="_blank"
+                 class="flex-1 bg-white text-black py-4 rounded-2xl font-medium flex items-center justify-center gap-2 hover:bg-slate-200 transition">
+                <i class="fa-brands fa-github"></i>
+                Workshop Repository
+              </a>
+            </div>
+          </div>
+          <div class="flex-1 text-sm text-slate-400 space-y-6">
+            <div>
+              <div class="text-emerald-400 text-xs tracking-widest mb-1">STATUS</div>
+              <div class="font-medium">Development begins May 15, 2026</div>
+            </div>
+            <div>
+              <div class="text-emerald-400 text-xs tracking-widest mb-1">TECHNOLOGY</div>
+              <div>Onshape • School 3D Printer • Arduino • Servo + Tendon System</div>
+            </div>
+            <div>
+              <div class="text-emerald-400 text-xs tracking-widest mb-1">PHYSICS APPLIED</div>
+              <div>Torque, Levers, Mechanical Advantage, Rotational Dynamics</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-slate-950 py-12 text-center text-slate-500 text-sm">
+    Built for Purdue FYE Regular Decision • Last updated: April 29, 2026
+  </footer>
+
+</body>
+</html>
