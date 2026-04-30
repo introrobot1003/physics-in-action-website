@@ -35,10 +35,3 @@ Purdue’s First-Year Engineering program values students who demonstrate real e
 
 ---
 
-**이 README도 완전히 영어로만 되어 있어.**
-
-`README.md` 업데이트했으면 “README 만들었다”라고 말해줘.
-
-그 다음에 **robot-project** repo의 README도 바로 만들어줄게.
-
-준비됐으면 말해!
